@@ -10,6 +10,7 @@ const app = express();
 const allowedOrigins = [
     "http://localhost:5173",
     "https://ls-giveaway-client.vercel.app",
+    "https://giveaway.lexorasolution.com",
 ];
 
 // ✅ Important: origin function (more reliable than array directly)
